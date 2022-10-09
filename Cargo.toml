@@ -1,0 +1,16 @@
+[package]
+name = "run-them"
+description = "A CLI to launch a single command with many workers, serializing the output"
+version = "0.1.0"
+edition = "2021"
+authors = ["Denis Krienbühl <denis@href.ch>"]
+repository = "https://github.com/href/run-them"
+license = "MIT"
+keywords = ["cli", "processes", "workers", "stdout"]
+categories = ["command-line-utilities", "concurrency"]
+readme = "README.md"
+
+[dependencies]
+clap = { version = "4.0.9", features = ["derive"] }
+crossbeam-channel = "0.5.6"
+lazy_static = "1.4.0"
