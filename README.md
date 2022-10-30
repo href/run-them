@@ -13,6 +13,5 @@ cargo install run-them
 Serve the local folder with 4 workers in Python:
 
 ```bash
-$ run-them -w 4 
-run-them python3 -m http.server --bind 127.0.0.1 8000
+$ run-them -w 4 python3 -m http.server --bind 127.0.0.1 8000
 ```
